@@ -1,0 +1,88 @@
+filtered: [
+  {"count": 2, "plugin_id": 15901, "plugin_name": "SSL Certificate Expiry", "severity": 2, "plugin_family": "General", "vuln_index": 8
+  },
+  {"count": 2, "plugin_id": 20007, "plugin_name": "SSL Version 2 and 3 Protocol Detection", "severity": 4, "plugin_family": "Service detection", "vuln_index": 9
+  },
+  {"count": 2, "plugin_id": 32321, "plugin_name": "Debian OpenSSH/OpenSSL Package Random Number Generator Weakness (SSL check)", "severity": 4, "plugin_family": "Gain a shell remotely", "vuln_index": 12
+  },
+  {"count": 2, "plugin_id": 42873, "plugin_name": "SSL Medium Strength Cipher Suites Supported (SWEET32)", "severity": 3, "plugin_family": "General", "vuln_index": 13
+  },
+  {"count": 2, "plugin_id": 45411, "plugin_name": "SSL Certificate with Wrong Hostname", "severity": 2, "plugin_family": "General", "vuln_index": 15
+  },
+  {"count": 2, "plugin_id": 51192, "plugin_name": "SSL Certificate Cannot Be Trusted", "severity": 2, "plugin_family": "General", "vuln_index": 17
+  },
+  {"count": 2, "plugin_id": 57582, "plugin_name": "SSL Self-Signed Certificate", "severity": 2, "plugin_family": "General", "vuln_index": 20
+  },
+  {"count": 2, "plugin_id": 65821, "plugin_name": "SSL RC4 Cipher Suites Supported (Bar Mitzvah)", "severity": 3, "plugin_family": "General", "vuln_index": 22
+  },
+  {"count": 2, "plugin_id": 78479, "plugin_name": "SSLv3 Padding Oracle On Downgraded Legacy Encryption Vulnerability (POODLE)", "severity": 1, "plugin_family": "General", "vuln_index": 24
+  },
+  {"count": 2, "plugin_id": 104743, "plugin_name": "TLS Version 1.0 Protocol Detection", "severity": 2, "plugin_family": "Service detection", "vuln_index": 25
+  },
+  {"count": 1, "plugin_id": 10114, "plugin_name": "ICMP Timestamp Request Remote Date Disclosure", "severity": 1, "plugin_family": "General", "vuln_index": 29
+  },
+  {"count": 1, "plugin_id": 10205, "plugin_name": "rlogin Service Detection", "severity": 3, "plugin_family": "Service detection", "vuln_index": 31
+  },
+  {"count": 1, "plugin_id": 10245, "plugin_name": "rsh Service Detection", "severity": 3, "plugin_family": "Service detection", "vuln_index": 33
+  },
+  {"count": 1, "plugin_id": 10407, "plugin_name": "X Server Detection", "severity": 1, "plugin_family": "Service detection", "vuln_index": 40
+  },
+  {"count": 1, "plugin_id": 11213, "plugin_name": "HTTP TRACE / TRACK Methods Allowed", "severity": 2, "plugin_family": "Web Servers", "vuln_index": 47
+  },
+  {"count": 1, "plugin_id": 12085, "plugin_name": "Apache Tomcat Default Files", "severity": 2, "plugin_family": "Web Servers", "vuln_index": 53
+  },
+  {"count": 1, "plugin_id": 12217, "plugin_name": "DNS Server Cache Snooping Remote Information Disclosure", "severity": 2, "plugin_family": "DNS", "vuln_index": 54
+  },
+  {"count": 1, "plugin_id": 26928, "plugin_name": "SSL Weak Cipher Suites Supported", "severity": 2, "plugin_family": "General", "vuln_index": 66
+  },
+  {"count": 1, "plugin_id": 31705, "plugin_name": "SSL Anonymous Cipher Suites Supported", "severity": 2, "plugin_family": "Service detection", "vuln_index": 67
+  },
+  {"count": 1, "plugin_id": 32314, "plugin_name": "Debian OpenSSH/OpenSSL Package Random Number Generator Weakness", "severity": 4, "plugin_family": "Gain a shell remotely", "vuln_index": 68
+  },
+  {"count": 1, "plugin_id": 33447, "plugin_name": "Multiple Vendor DNS Query ID Field Prediction Cache Poisoning", "severity": 2, "plugin_family": "DNS", "vuln_index": 69
+  },
+  {"count": 1, "plugin_id": 42256, "plugin_name": "NFS Shares World Readable", "severity": 3, "plugin_family": "RPC", "vuln_index": 76
+  },
+  {"count": 1, "plugin_id": 42263, "plugin_name": "Unencrypted Telnet Server", "severity": 2, "plugin_family": "Misc.", "vuln_index": 77
+  },
+  {"count": 1, "plugin_id": 46882, "plugin_name": "UnrealIRCd Backdoor Detection", "severity": 4, "plugin_family": "Backdoors", "vuln_index": 79
+  },
+  {"count": 1, "plugin_id": 51988, "plugin_name": "Bind Shell Backdoor Detection", "severity": 4, "plugin_family": "Backdoors", "vuln_index": 83
+  },
+  {"count": 1, "plugin_id": 52611, "plugin_name": "SMTP Service STARTTLS Plaintext Command Injection", "severity": 2, "plugin_family": "SMTP problems", "vuln_index": 84
+  },
+  {"count": 1, "plugin_id": 57608, "plugin_name": "SMB Signing not required", "severity": 2, "plugin_family": "Misc.", "vuln_index": 88
+  },
+  {"count": 1, "plugin_id": 61708, "plugin_name": "VNC Server "password" Password", "severity": 4, "plugin_family": "Gain a shell remotely", "vuln_index": 89
+  },
+  {"count": 1, "plugin_id": 70658, "plugin_name": "SSH Server CBC Mode Ciphers Enabled", "severity": 1, "plugin_family": "Misc.", "vuln_index": 93
+  },
+  {"count": 1, "plugin_id": 71049, "plugin_name": "SSH Weak MAC Algorithms Enabled", "severity": 1, "plugin_family": "Misc.", "vuln_index": 94
+  },
+  {"count": 1, "plugin_id": 81606, "plugin_name": "SSL/TLS EXPORT_RSA <= 512-bit Cipher Suites Supported (FREAK)", "severity": 2, "plugin_family": "Misc.", "vuln_index": 96
+  },
+  {"count": 1, "plugin_id": 83738, "plugin_name": "SSL/TLS EXPORT_DHE <= 512-bit Export Cipher Suites Supported (Logjam)", "severity": 1, "plugin_family": "Misc.", "vuln_index": 97
+  },
+  {"count": 1, "plugin_id": 83875, "plugin_name": "SSL/TLS Diffie-Hellman Modulus <= 1024 Bits (Logjam)", "severity": 1, "plugin_family": "Misc.", "vuln_index": 98
+  },
+  {"count": 1, "plugin_id": 89058, "plugin_name": "SSL DROWN Attack Vulnerability (Decrypting RSA with Obsolete and Weakened eNcryption)", "severity": 3, "plugin_family": "Misc.", "vuln_index": 101
+  },
+  {"count": 1, "plugin_id": 90317, "plugin_name": "SSH Weak Algorithms Supported", "severity": 2, "plugin_family": "Misc.", "vuln_index": 102
+  },
+  {"count": 1, "plugin_id": 90509, "plugin_name": "Samba Badlock Vulnerability", "severity": 3, "plugin_family": "General", "vuln_index": 103
+  },
+  {"count": 1, "plugin_id": 134862, "plugin_name": "Apache Tomcat AJP Connector Request Injection (Ghostcat)", "severity": 4, "plugin_family": "Web Servers", "vuln_index": 111
+  },
+  {"count": 1, "plugin_id": 136769, "plugin_name": "ISC BIND Service Downgrade / Reflected DoS", "severity": 3, "plugin_family": "DNS", "vuln_index": 113
+  },
+  {"count": 1, "plugin_id": 136808, "plugin_name": "ISC BIND Denial of Service", "severity": 2, "plugin_family": "DNS", "vuln_index": 114
+  },
+  {"count": 1, "plugin_id": 139915, "plugin_name": "ISC BIND 9.x < 9.11.22,
+    9.12.x < 9.16.6,
+    9.17.x < 9.17.4 DoS", "severity": 2, "plugin_family": "DNS", "vuln_index": 115
+  },
+  {"count": 1, "plugin_id": 153953, "plugin_name": "SSH Weak Key Exchange Algorithms Enabled", "severity": 1, "plugin_family": "Misc.", "vuln_index": 118
+  },
+  {"count": 1, "plugin_id": 171340, "plugin_name": "Apache Tomcat SEoL (<= 5.5.x)", "severity": 4, "plugin_family": "Web Servers", "vuln_index": 119
+  }
+]

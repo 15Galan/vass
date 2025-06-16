@@ -1,0 +1,2551 @@
+{
+  "info": {
+    "owner": "mssp-admin-580924d13e7d@telefonica.com",
+    "name": "Escaneo-VM-Metaexploitable",
+    "no_target": false,
+    "folder_id": null,
+    "control": true,
+    "user_permissions": 16,
+    "schedule_uuid": "template-a674002d-55b7-f4f0-0947-99a2056f574391d58a10e4b62f99",
+    "edit_allowed": false,
+    "scanner_name": "DESKTOP-VT6SBV3",
+    "policy": "Advanced Network Scan",
+    "shared": true,
+    "object_id": 144,
+    "acls": null,
+    "hostcount": 1,
+    "uuid": "2e7776d2-eea5-4253-ab87-de35c125bed8",
+    "status": "completed",
+    "scan_type": "remote",
+    "targets": "192.168.1.182",
+    "alt_targets_used": false,
+    "pci-can-upload": false,
+    "scan_start": 1742299944,
+    "timestamp": 1742300650,
+    "is_archived": false,
+    "reindexing": false,
+    "scan_end": 1742300650,
+    "haskb": true,
+    "hasaudittrail": false,
+    "scanner_start": null,
+    "scanner_end": null
+  },
+  "hosts": [
+    {
+      "asset_id": 2,
+      "host_id": 2,
+      "uuid": "1a3b98e8-031a-458b-b5db-5b16a0662f52",
+      "hostname": "192.168.1.182",
+      "progress": "100-100/200-200",
+      "scanprogresscurrent": 100,
+      "scanprogresstotal": 100,
+      "numchecksconsidered": 100,
+      "totalchecksconsidered": 100,
+      "severitycount": {
+        "item": [
+          {
+            "count": 109,
+            "severitylevel": 0
+          },
+          {
+            "count": 9,
+            "severitylevel": 1
+          },
+          {
+            "count": 23,
+            "severitylevel": 2
+          },
+          {
+            "count": 10,
+            "severitylevel": 3
+          },
+          {
+            "count": 10,
+            "severitylevel": 4
+          }
+        ]
+      },
+      "severity": 161,
+      "score": 112499,
+      "info": 109,
+      "low": 9,
+      "medium": 23,
+      "high": 10,
+      "critical": 10,
+      "host_index": 0
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "count": 10,
+      "plugin_id": 11111,
+      "plugin_name": "RPC Services Enumeration",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 1
+    },
+    {
+      "count": 8,
+      "plugin_id": 22964,
+      "plugin_name": "Service Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 2
+    },
+    {
+      "count": 2,
+      "plugin_id": 10107,
+      "plugin_name": "HTTP Server Type and Version",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 3
+    },
+    {
+      "count": 2,
+      "plugin_id": 10863,
+      "plugin_name": "SSL Certificate Information",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 4
+    },
+    {
+      "count": 2,
+      "plugin_id": 11002,
+      "plugin_name": "DNS Server Detection",
+      "severity": 0,
+      "plugin_family": "DNS",
+      "vuln_index": 5
+    },
+    {
+      "count": 2,
+      "plugin_id": 11011,
+      "plugin_name": "Microsoft Windows SMB Service Detection",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 6
+    },
+    {
+      "count": 2,
+      "plugin_id": 11154,
+      "plugin_name": "Unknown Service Detection: Banner Retrieval",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 7
+    },
+    {
+      "count": 2,
+      "plugin_id": 15901,
+      "plugin_name": "SSL Certificate Expiry",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 8
+    },
+    {
+      "count": 2,
+      "plugin_id": 20007,
+      "plugin_name": "SSL Version 2 and 3 Protocol Detection",
+      "severity": 4,
+      "plugin_family": "Service detection",
+      "vuln_index": 9
+    },
+    {
+      "count": 2,
+      "plugin_id": 21643,
+      "plugin_name": "SSL Cipher Suites Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 10
+    },
+    {
+      "count": 2,
+      "plugin_id": 24260,
+      "plugin_name": "HyperText Transfer Protocol (HTTP) Information",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 11
+    },
+    {
+      "count": 2,
+      "plugin_id": 32321,
+      "plugin_name": "Debian OpenSSH/OpenSSL Package Random Number Generator Weakness (SSL check)",
+      "severity": 4,
+      "plugin_family": "Gain a shell remotely",
+      "vuln_index": 12
+    },
+    {
+      "count": 2,
+      "plugin_id": 42873,
+      "plugin_name": "SSL Medium Strength Cipher Suites Supported (SWEET32)",
+      "severity": 3,
+      "plugin_family": "General",
+      "vuln_index": 13
+    },
+    {
+      "count": 2,
+      "plugin_id": 45410,
+      "plugin_name": "SSL Certificate 'commonName' Mismatch",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 14
+    },
+    {
+      "count": 2,
+      "plugin_id": 45411,
+      "plugin_name": "SSL Certificate with Wrong Hostname",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 15
+    },
+    {
+      "count": 2,
+      "plugin_id": 50845,
+      "plugin_name": "OpenSSL Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 16
+    },
+    {
+      "count": 2,
+      "plugin_id": 51192,
+      "plugin_name": "SSL Certificate Cannot Be Trusted",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 17
+    },
+    {
+      "count": 2,
+      "plugin_id": 56984,
+      "plugin_name": "SSL / TLS Versions Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 18
+    },
+    {
+      "count": 2,
+      "plugin_id": 57041,
+      "plugin_name": "SSL Perfect Forward Secrecy Cipher Suites Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 19
+    },
+    {
+      "count": 2,
+      "plugin_id": 57582,
+      "plugin_name": "SSL Self-Signed Certificate",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 20
+    },
+    {
+      "count": 2,
+      "plugin_id": 62563,
+      "plugin_name": "SSL Compression Methods Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 21
+    },
+    {
+      "count": 2,
+      "plugin_id": 65821,
+      "plugin_name": "SSL RC4 Cipher Suites Supported (Bar Mitzvah)",
+      "severity": 3,
+      "plugin_family": "General",
+      "vuln_index": 22
+    },
+    {
+      "count": 2,
+      "plugin_id": 70544,
+      "plugin_name": "SSL Cipher Block Chaining Cipher Suites Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 23
+    },
+    {
+      "count": 2,
+      "plugin_id": 78479,
+      "plugin_name": "SSLv3 Padding Oracle On Downgraded Legacy Encryption Vulnerability (POODLE)",
+      "severity": 1,
+      "plugin_family": "General",
+      "vuln_index": 24
+    },
+    {
+      "count": 2,
+      "plugin_id": 104743,
+      "plugin_name": "TLS Version 1.0 Protocol Detection",
+      "severity": 2,
+      "plugin_family": "Service detection",
+      "vuln_index": 25
+    },
+    {
+      "count": 2,
+      "plugin_id": 156899,
+      "plugin_name": "SSL/TLS Recommended Cipher Suites",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 26
+    },
+    {
+      "count": 1,
+      "plugin_id": 10028,
+      "plugin_name": "DNS Server BIND version Directive Remote Version Detection",
+      "severity": 0,
+      "plugin_family": "DNS",
+      "vuln_index": 27
+    },
+    {
+      "count": 1,
+      "plugin_id": 10092,
+      "plugin_name": "FTP Server Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 28
+    },
+    {
+      "count": 1,
+      "plugin_id": 10114,
+      "plugin_name": "ICMP Timestamp Request Remote Date Disclosure",
+      "severity": 1,
+      "plugin_family": "General",
+      "vuln_index": 29
+    },
+    {
+      "count": 1,
+      "plugin_id": 10150,
+      "plugin_name": "Windows NetBIOS / SMB Remote Host Information Disclosure",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 30
+    },
+    {
+      "count": 1,
+      "plugin_id": 10205,
+      "plugin_name": "rlogin Service Detection",
+      "severity": 3,
+      "plugin_family": "Service detection",
+      "vuln_index": 31
+    },
+    {
+      "count": 1,
+      "plugin_id": 10223,
+      "plugin_name": "RPC portmapper Service Detection",
+      "severity": 0,
+      "plugin_family": "RPC",
+      "vuln_index": 32
+    },
+    {
+      "count": 1,
+      "plugin_id": 10245,
+      "plugin_name": "rsh Service Detection",
+      "severity": 3,
+      "plugin_family": "Service detection",
+      "vuln_index": 33
+    },
+    {
+      "count": 1,
+      "plugin_id": 10263,
+      "plugin_name": "SMTP Server Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 34
+    },
+    {
+      "count": 1,
+      "plugin_id": 10267,
+      "plugin_name": "SSH Server Type and Version Information",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 35
+    },
+    {
+      "count": 1,
+      "plugin_id": 10281,
+      "plugin_name": "Telnet Server Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 36
+    },
+    {
+      "count": 1,
+      "plugin_id": 10287,
+      "plugin_name": "Traceroute Information",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 37
+    },
+    {
+      "count": 1,
+      "plugin_id": 10342,
+      "plugin_name": "VNC Software Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 38
+    },
+    {
+      "count": 1,
+      "plugin_id": 10397,
+      "plugin_name": "Microsoft Windows SMB LanMan Pipe Server Listing Disclosure",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 39
+    },
+    {
+      "count": 1,
+      "plugin_id": 10407,
+      "plugin_name": "X Server Detection",
+      "severity": 1,
+      "plugin_family": "Service detection",
+      "vuln_index": 40
+    },
+    {
+      "count": 1,
+      "plugin_id": 10437,
+      "plugin_name": "NFS Share Export List",
+      "severity": 0,
+      "plugin_family": "RPC",
+      "vuln_index": 41
+    },
+    {
+      "count": 1,
+      "plugin_id": 10719,
+      "plugin_name": "MySQL Server Detection",
+      "severity": 0,
+      "plugin_family": "Databases",
+      "vuln_index": 42
+    },
+    {
+      "count": 1,
+      "plugin_id": 10785,
+      "plugin_name": "Microsoft Windows SMB NativeLanManager Remote System Information Disclosure",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 43
+    },
+    {
+      "count": 1,
+      "plugin_id": 10881,
+      "plugin_name": "SSH Protocol Versions Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 44
+    },
+    {
+      "count": 1,
+      "plugin_id": 11153,
+      "plugin_name": "Service Detection (HELP Request)",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 45
+    },
+    {
+      "count": 1,
+      "plugin_id": 11156,
+      "plugin_name": "IRC Daemon Version Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 46
+    },
+    {
+      "count": 1,
+      "plugin_id": 11213,
+      "plugin_name": "HTTP TRACE / TRACK Methods Allowed",
+      "severity": 2,
+      "plugin_family": "Web Servers",
+      "vuln_index": 47
+    },
+    {
+      "count": 1,
+      "plugin_id": 11219,
+      "plugin_name": "Nessus SYN scanner",
+      "severity": 0,
+      "plugin_family": "Port scanners",
+      "vuln_index": 48
+    },
+    {
+      "count": 1,
+      "plugin_id": 11422,
+      "plugin_name": "Web Server Unconfigured - Default Install Page Present",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 49
+    },
+    {
+      "count": 1,
+      "plugin_id": 11424,
+      "plugin_name": "WebDAV Detection",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 50
+    },
+    {
+      "count": 1,
+      "plugin_id": 11819,
+      "plugin_name": "TFTP Daemon Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 51
+    },
+    {
+      "count": 1,
+      "plugin_id": 11936,
+      "plugin_name": "OS Identification",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 52
+    },
+    {
+      "count": 1,
+      "plugin_id": 12085,
+      "plugin_name": "Apache Tomcat Default Files",
+      "severity": 2,
+      "plugin_family": "Web Servers",
+      "vuln_index": 53
+    },
+    {
+      "count": 1,
+      "plugin_id": 12217,
+      "plugin_name": "DNS Server Cache Snooping Remote Information Disclosure",
+      "severity": 2,
+      "plugin_family": "DNS",
+      "vuln_index": 54
+    },
+    {
+      "count": 1,
+      "plugin_id": 17975,
+      "plugin_name": "Service Detection (GET request)",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 55
+    },
+    {
+      "count": 1,
+      "plugin_id": 18261,
+      "plugin_name": "Apache Banner Linux Distribution Disclosure",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 56
+    },
+    {
+      "count": 1,
+      "plugin_id": 19288,
+      "plugin_name": "VNC Server Security Type Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 57
+    },
+    {
+      "count": 1,
+      "plugin_id": 19506,
+      "plugin_name": "Nessus Scan Information",
+      "severity": 0,
+      "plugin_family": "Settings",
+      "vuln_index": 58
+    },
+    {
+      "count": 1,
+      "plugin_id": 20094,
+      "plugin_name": "VMware Virtual Machine Detection",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 59
+    },
+    {
+      "count": 1,
+      "plugin_id": 20108,
+      "plugin_name": "Web Server / Application favicon.ico Vendor Fingerprinting",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 60
+    },
+    {
+      "count": 1,
+      "plugin_id": 21186,
+      "plugin_name": "AJP Connector Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 61
+    },
+    {
+      "count": 1,
+      "plugin_id": 22227,
+      "plugin_name": "RMI Registry Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 62
+    },
+    {
+      "count": 1,
+      "plugin_id": 25220,
+      "plugin_name": "TCP/IP Timestamps Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 63
+    },
+    {
+      "count": 1,
+      "plugin_id": 25240,
+      "plugin_name": "Samba Server Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 64
+    },
+    {
+      "count": 1,
+      "plugin_id": 26024,
+      "plugin_name": "PostgreSQL Server Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 65
+    },
+    {
+      "count": 1,
+      "plugin_id": 26928,
+      "plugin_name": "SSL Weak Cipher Suites Supported",
+      "severity": 2,
+      "plugin_family": "General",
+      "vuln_index": 66
+    },
+    {
+      "count": 1,
+      "plugin_id": 31705,
+      "plugin_name": "SSL Anonymous Cipher Suites Supported",
+      "severity": 2,
+      "plugin_family": "Service detection",
+      "vuln_index": 67
+    },
+    {
+      "count": 1,
+      "plugin_id": 32314,
+      "plugin_name": "Debian OpenSSH/OpenSSL Package Random Number Generator Weakness",
+      "severity": 4,
+      "plugin_family": "Gain a shell remotely",
+      "vuln_index": 68
+    },
+    {
+      "count": 1,
+      "plugin_id": 33447,
+      "plugin_name": "Multiple Vendor DNS Query ID Field Prediction Cache Poisoning",
+      "severity": 2,
+      "plugin_family": "DNS",
+      "vuln_index": 69
+    },
+    {
+      "count": 1,
+      "plugin_id": 35371,
+      "plugin_name": "DNS Server hostname.bind Map Hostname Disclosure",
+      "severity": 0,
+      "plugin_family": "DNS",
+      "vuln_index": 70
+    },
+    {
+      "count": 1,
+      "plugin_id": 35716,
+      "plugin_name": "Ethernet Card Manufacturer Detection",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 71
+    },
+    {
+      "count": 1,
+      "plugin_id": 39446,
+      "plugin_name": "Apache Tomcat Detection",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 72
+    },
+    {
+      "count": 1,
+      "plugin_id": 39520,
+      "plugin_name": "Backported Security Patch Detection (SSH)",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 73
+    },
+    {
+      "count": 1,
+      "plugin_id": 39521,
+      "plugin_name": "Backported Security Patch Detection (WWW)",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 74
+    },
+    {
+      "count": 1,
+      "plugin_id": 42088,
+      "plugin_name": "SMTP Service STARTTLS Command Support",
+      "severity": 0,
+      "plugin_family": "SMTP problems",
+      "vuln_index": 75
+    },
+    {
+      "count": 1,
+      "plugin_id": 42256,
+      "plugin_name": "NFS Shares World Readable",
+      "severity": 3,
+      "plugin_family": "RPC",
+      "vuln_index": 76
+    },
+    {
+      "count": 1,
+      "plugin_id": 42263,
+      "plugin_name": "Unencrypted Telnet Server",
+      "severity": 2,
+      "plugin_family": "Misc.",
+      "vuln_index": 77
+    },
+    {
+      "count": 1,
+      "plugin_id": 45590,
+      "plugin_name": "Common Platform Enumeration (CPE)",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 78
+    },
+    {
+      "count": 1,
+      "plugin_id": 46882,
+      "plugin_name": "UnrealIRCd Backdoor Detection",
+      "severity": 4,
+      "plugin_family": "Backdoors",
+      "vuln_index": 79
+    },
+    {
+      "count": 1,
+      "plugin_id": 48204,
+      "plugin_name": "Apache HTTP Server Version",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 80
+    },
+    {
+      "count": 1,
+      "plugin_id": 48243,
+      "plugin_name": "PHP Version Detection",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 81
+    },
+    {
+      "count": 1,
+      "plugin_id": 51891,
+      "plugin_name": "SSL Session Resume Supported",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 82
+    },
+    {
+      "count": 1,
+      "plugin_id": 51988,
+      "plugin_name": "Bind Shell Backdoor Detection",
+      "severity": 4,
+      "plugin_family": "Backdoors",
+      "vuln_index": 83
+    },
+    {
+      "count": 1,
+      "plugin_id": 52611,
+      "plugin_name": "SMTP Service STARTTLS Plaintext Command Injection",
+      "severity": 2,
+      "plugin_family": "SMTP problems",
+      "vuln_index": 84
+    },
+    {
+      "count": 1,
+      "plugin_id": 52703,
+      "plugin_name": "vsftpd Detection",
+      "severity": 0,
+      "plugin_family": "FTP",
+      "vuln_index": 85
+    },
+    {
+      "count": 1,
+      "plugin_id": 53335,
+      "plugin_name": "RPC portmapper (TCP)",
+      "severity": 0,
+      "plugin_family": "RPC",
+      "vuln_index": 86
+    },
+    {
+      "count": 1,
+      "plugin_id": 54615,
+      "plugin_name": "Device Type",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 87
+    },
+    {
+      "count": 1,
+      "plugin_id": 57608,
+      "plugin_name": "SMB Signing not required",
+      "severity": 2,
+      "plugin_family": "Misc.",
+      "vuln_index": 88
+    },
+    {
+      "count": 1,
+      "plugin_id": 61708,
+      "plugin_name": "VNC Server 'password' Password",
+      "severity": 4,
+      "plugin_family": "Gain a shell remotely",
+      "vuln_index": 89
+    },
+    {
+      "count": 1,
+      "plugin_id": 65792,
+      "plugin_name": "VNC Server Unencrypted Communication Detection",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 90
+    },
+    {
+      "count": 1,
+      "plugin_id": 66334,
+      "plugin_name": "Patch Report",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 91
+    },
+    {
+      "count": 1,
+      "plugin_id": 70657,
+      "plugin_name": "SSH Algorithms and Languages Supported",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 92
+    },
+    {
+      "count": 1,
+      "plugin_id": 70658,
+      "plugin_name": "SSH Server CBC Mode Ciphers Enabled",
+      "severity": 1,
+      "plugin_family": "Misc.",
+      "vuln_index": 93
+    },
+    {
+      "count": 1,
+      "plugin_id": 71049,
+      "plugin_name": "SSH Weak MAC Algorithms Enabled",
+      "severity": 1,
+      "plugin_family": "Misc.",
+      "vuln_index": 94
+    },
+    {
+      "count": 1,
+      "plugin_id": 72779,
+      "plugin_name": "DNS Server Version Detection",
+      "severity": 0,
+      "plugin_family": "DNS",
+      "vuln_index": 95
+    },
+    {
+      "count": 1,
+      "plugin_id": 81606,
+      "plugin_name": "SSL/TLS EXPORT_RSA <= 512-bit Cipher Suites Supported (FREAK)",
+      "severity": 2,
+      "plugin_family": "Misc.",
+      "vuln_index": 96
+    },
+    {
+      "count": 1,
+      "plugin_id": 83738,
+      "plugin_name": "SSL/TLS EXPORT_DHE <= 512-bit Export Cipher Suites Supported (Logjam)",
+      "severity": 1,
+      "plugin_family": "Misc.",
+      "vuln_index": 97
+    },
+    {
+      "count": 1,
+      "plugin_id": 83875,
+      "plugin_name": "SSL/TLS Diffie-Hellman Modulus <= 1024 Bits (Logjam)",
+      "severity": 1,
+      "plugin_family": "Misc.",
+      "vuln_index": 98
+    },
+    {
+      "count": 1,
+      "plugin_id": 84574,
+      "plugin_name": "Backported Security Patch Detection (PHP)",
+      "severity": 0,
+      "plugin_family": "Web Servers",
+      "vuln_index": 99
+    },
+    {
+      "count": 1,
+      "plugin_id": 86420,
+      "plugin_name": "Ethernet MAC Addresses",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 100
+    },
+    {
+      "count": 1,
+      "plugin_id": 89058,
+      "plugin_name": "SSL DROWN Attack Vulnerability (Decrypting RSA with Obsolete and Weakened eNcryption)",
+      "severity": 3,
+      "plugin_family": "Misc.",
+      "vuln_index": 101
+    },
+    {
+      "count": 1,
+      "plugin_id": 90317,
+      "plugin_name": "SSH Weak Algorithms Supported",
+      "severity": 2,
+      "plugin_family": "Misc.",
+      "vuln_index": 102
+    },
+    {
+      "count": 1,
+      "plugin_id": 90509,
+      "plugin_name": "Samba Badlock Vulnerability",
+      "severity": 3,
+      "plugin_family": "General",
+      "vuln_index": 103
+    },
+    {
+      "count": 1,
+      "plugin_id": 96982,
+      "plugin_name": "Server Message Block (SMB) Protocol Version 1 Enabled (uncredentialed check)",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 104
+    },
+    {
+      "count": 1,
+      "plugin_id": 100871,
+      "plugin_name": "Microsoft Windows SMB Versions Supported (remote check)",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 105
+    },
+    {
+      "count": 1,
+      "plugin_id": 104887,
+      "plugin_name": "Samba Version",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 106
+    },
+    {
+      "count": 1,
+      "plugin_id": 106716,
+      "plugin_name": "Microsoft Windows SMB2 and SMB3 Dialects Supported (remote check)",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 107
+    },
+    {
+      "count": 1,
+      "plugin_id": 110723,
+      "plugin_name": "Target Credential Status by Authentication Protocol - No Credentials Provided",
+      "severity": 0,
+      "plugin_family": "Settings",
+      "vuln_index": 108
+    },
+    {
+      "count": 1,
+      "plugin_id": 117886,
+      "plugin_name": "OS Security Patch Assessment Not Available",
+      "severity": 0,
+      "plugin_family": "Settings",
+      "vuln_index": 109
+    },
+    {
+      "count": 1,
+      "plugin_id": 118224,
+      "plugin_name": "PostgreSQL STARTTLS Support",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 110
+    },
+    {
+      "count": 1,
+      "plugin_id": 134862,
+      "plugin_name": "Apache Tomcat AJP Connector Request Injection (Ghostcat)",
+      "severity": 4,
+      "plugin_family": "Web Servers",
+      "vuln_index": 111
+    },
+    {
+      "count": 1,
+      "plugin_id": 135860,
+      "plugin_name": "WMI Not Available",
+      "severity": 0,
+      "plugin_family": "Windows",
+      "vuln_index": 112
+    },
+    {
+      "count": 1,
+      "plugin_id": 136769,
+      "plugin_name": "ISC BIND Service Downgrade / Reflected DoS",
+      "severity": 3,
+      "plugin_family": "DNS",
+      "vuln_index": 113
+    },
+    {
+      "count": 1,
+      "plugin_id": 136808,
+      "plugin_name": "ISC BIND Denial of Service",
+      "severity": 2,
+      "plugin_family": "DNS",
+      "vuln_index": 114
+    },
+    {
+      "count": 1,
+      "plugin_id": 139915,
+      "plugin_name": "ISC BIND 9.x < 9.11.22, 9.12.x < 9.16.6, 9.17.x < 9.17.4 DoS",
+      "severity": 2,
+      "plugin_family": "DNS",
+      "vuln_index": 115
+    },
+    {
+      "count": 1,
+      "plugin_id": 149334,
+      "plugin_name": "SSH Password Authentication Accepted",
+      "severity": 0,
+      "plugin_family": "Service detection",
+      "vuln_index": 116
+    },
+    {
+      "count": 1,
+      "plugin_id": 153588,
+      "plugin_name": "SSH SHA-1 HMAC Algorithms Enabled",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 117
+    },
+    {
+      "count": 1,
+      "plugin_id": 153953,
+      "plugin_name": "SSH Weak Key Exchange Algorithms Enabled",
+      "severity": 1,
+      "plugin_family": "Misc.",
+      "vuln_index": 118
+    },
+    {
+      "count": 1,
+      "plugin_id": 171340,
+      "plugin_name": "Apache Tomcat SEoL (<= 5.5.x)",
+      "severity": 4,
+      "plugin_family": "Web Servers",
+      "vuln_index": 119
+    },
+    {
+      "count": 1,
+      "plugin_id": 181418,
+      "plugin_name": "OpenSSH Detection",
+      "severity": 0,
+      "plugin_family": "Misc.",
+      "vuln_index": 120
+    },
+    {
+      "count": 1,
+      "plugin_id": 209654,
+      "plugin_name": "OS Fingerprints Detected",
+      "severity": 0,
+      "plugin_family": "General",
+      "vuln_index": 121
+    }
+  ],
+  "comphosts": [],
+  "compliance": [],
+  "filters": [
+    {
+      "name": "host.id",
+      "readable_name": "Asset ID",
+      "control": {
+        "type": "entry",
+        "regex": "[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12}(,[0-9a-f]{8}-([0-9a-f]{4}-){3}[0-9a-f]{12})*",
+        "readable_regex": "01234567-abcd-ef01-2345-6789abcdef01"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.bid",
+      "readable_name": "Bugtraq ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(,[0-9]+)*",
+        "readable_regex": "NUMBER",
+        "maxlength": 18
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_framework_canvas",
+      "readable_name": "CANVAS Exploit Framework",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.canvas_package",
+      "readable_name": "CANVAS Package",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "CANVAS",
+          "D2ExploitPack",
+          "White_Phosphorus"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:CERT-CC",
+      "readable_name": "CERT Advisory ID",
+      "control": {
+        "type": "entry",
+        "regex": "^CA-[0-9]+-[0-9]+(,CA-[0-9]+-[0-9]+)*$",
+        "readable_regex": "CA-YYYY-ID (ie: CA-2003-08)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:CERT",
+      "readable_name": "CERT Vulnerability ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(,[0-9]+)*$",
+        "readable_regex": "Cert VU reference (ie: 10031)",
+        "maxlength": 18
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_framework_core",
+      "readable_name": "CORE Exploit Framework",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cpe",
+      "readable_name": "CPE",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cve.raw",
+      "readable_name": "CVE",
+      "control": {
+        "type": "entry",
+        "regex": "^(CVE|CAN|cve|can)-(1999|20[0-9][0-9])-[0-9]{4,}(,(CVE|CAN|cve|can)-(1999|20[0-9][0-9])-[0-9]{4,})*$",
+        "readable_regex": "CVE-2015-9876,CVE-2016-10456"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss_base_score",
+      "readable_name": "CVSS Base Score",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(\\.[0-9]+)?$",
+        "readable_regex": "7.5"
+      },
+      "operators": [
+        "lte",
+        "gte",
+        "eq",
+        "neq",
+        "lt",
+        "gt"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss_temporal_score",
+      "readable_name": "CVSS Temporal Score",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(\\.[0-9]+)$",
+        "readable_regex": "4.2"
+      },
+      "operators": [
+        "lte",
+        "gte",
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss_temporal_vector.raw",
+      "readable_name": "CVSS Temporal Vector",
+      "control": {
+        "type": "entry",
+        "regex": "^CVSS2#E:(U|POC|F|H|ND)/RL:(OF|T|W|U|ND)/RC:(UC|UR|C|ND)(,(CVSS2#E:(U|POC|F|H|ND)/RL:(OF|T|W|U|ND)/RC:(UC|UR|C|ND)))*$",
+        "readable_regex": "E:H, E:F"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss_vector.raw",
+      "readable_name": "CVSS Vector",
+      "control": {
+        "type": "entry",
+        "regex": "^CVSS2#AV:(L|A|N)/AC:(H|M|L)/Au:(N|S|M)/C:(N|P|C)/I:(N|P|C)/A:(N|P|C)(,(CVSS2#AV:(L|A|N)/AC:(H|M|L)/Au:(N|S|M)/C:(N|P|C)/I:(N|P|C)/A:(N|P|C)))*$",
+        "readable_regex": "AV:N, AV:A"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss3_base_score",
+      "readable_name": "CVSS v3.0 Base Score",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(\\.[0-9]+)?$",
+        "readable_regex": "7.5"
+      },
+      "operators": [
+        "lte",
+        "gte",
+        "eq",
+        "neq",
+        "lt",
+        "gt"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss3_temporal_score",
+      "readable_name": "CVSS v3.0 Temporal Score",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(\\.[0-9]+)$",
+        "readable_regex": "4.2"
+      },
+      "operators": [
+        "lte",
+        "gte",
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss3_temporal_vector.raw",
+      "readable_name": "CVSS v3.0 Temporal Vector",
+      "control": {
+        "type": "entry",
+        "regex": "^CVSS:3.0/E:(U|P|F|H|X)/RL:(O|T|W|U|X)/RC:(C|U|R|X)(,(CVSS:3.0/E:(U|P|F|H|X)/RL:(O|T|W|U|X)/RC:(C|U|R|X)))*$",
+        "readable_regex": "E:H, E:F"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.cvss3_vector.raw",
+      "readable_name": "CVSS v3.0 Vector",
+      "control": {
+        "type": "entry",
+        "regex": "^CVSS:3.0/AV:(N|A|L|P)/AC:(L|H)/PR:(N|L|H)/UI:(N|R)/S:(U|C)/C:(H|L|N)/I:(H|L|N)/A:(H|L|N)(,(CVSS:3.0/AV:(N|A|L|P)/AC:(L|H)/PR:(N|L|H)/UI:(N|R)/S:(U|C)/C:(H|L|N)/I:(H|L|N)/A:(H|L|N)))*$",
+        "readable_regex": "AV:N, AV:A"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:CWE",
+      "readable_name": "CWE",
+      "control": {
+        "type": "entry",
+        "regex": "^([0-9]+)(,[0-9]+)*$",
+        "readable_regex": "CWE reference (ie: 200)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "compliance_description",
+      "readable_name": "Check Name",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "compliance_reference",
+      "readable_name": "Compliance Reference",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.default_account",
+      "readable_name": "Default/Known Accounts",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_framework_d2_elliot",
+      "readable_name": "Elliot Exploit Framework",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.d2_elliot_name",
+      "readable_name": "Elliot Exploit Name",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_available",
+      "readable_name": "Exploit Available",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:EDB-ID",
+      "readable_name": "Exploit Database ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(,[0-9]+)*$",
+        "readable_regex": "NUMBER",
+        "maxlength": 18
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_framework_exploithub",
+      "readable_name": "ExploitHub",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploitability_ease.raw",
+      "readable_name": "Exploitability Ease",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "Exploits are available",
+          "No exploit is required",
+          "No known exploits are available"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploited_by_malware",
+      "readable_name": "Exploited By Malware",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploited_by_nessus",
+      "readable_name": "Exploited By Nessus",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "host.target",
+      "readable_name": "Hostname/IP Address",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "192.168.1.2,172.16.2.1-172.16.2.100,10.100.5.0/24,host.example.com"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch",
+        "begins"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:IAVA",
+      "readable_name": "IAVA ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+-[A-Za-z]-[0-9]+(-[SE])?(,[0-9]+-[A-Za-z]-[0-9]+(-[SE])?)*$",
+        "readable_regex": "IAVA reference (ie: 2011-A-0151)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:IAVB",
+      "readable_name": "IAVB ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+-[A-Za-z]-[0-9]+(-[SE])?(,[0-9]+-[A-Za-z]-[0-9]+(-[SE])?)*$",
+        "readable_regex": "IAVB reference (ie: 2011-B-0151)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.stig_severity",
+      "readable_name": "IAVM Severity",
+      "control": {
+        "type": "entry",
+        "regex": "^[ivIV]+",
+        "readable_regex": "IAVM Severity (ie: IV)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:IAVT",
+      "readable_name": "IAVT ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+-[A-Za-z]-[0-9]+(-[SE])?(,[0-9]+-[A-Za-z]-[0-9]+(-[SE])?)*$",
+        "readable_regex": "IAVT reference (ie: 2011-A-0151)"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.in_the_news",
+      "readable_name": "In The News",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.malware",
+      "readable_name": "Malware",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.exploit_framework_metasploit",
+      "readable_name": "Metasploit Exploit Framework",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.metasploit_name",
+      "readable_name": "Metasploit Name",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:MSFT",
+      "readable_name": "Microsoft Bulletin",
+      "control": {
+        "type": "entry",
+        "regex": "^MS[0-9]+-[0-9]+(,MS[0-9]+-[0-9]+)*$",
+        "readable_regex": "MS99-999,MS00-789"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:OSVDB",
+      "readable_name": "OSVDB ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(,[0-9]+)*$",
+        "readable_regex": "NUMBER",
+        "maxlength": 18
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.patch_publication_date",
+      "readable_name": "Patch Publication Date",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.description",
+      "readable_name": "Plugin Description",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.family_id",
+      "readable_name": "Plugin Family",
+      "control": {
+        "type": "dropdown_multi",
+        "list": [
+          {
+            "name": "Red Hat Local Security Checks",
+            "id": 1
+          },
+          {
+            "name": "HP-UX Local Security Checks",
+            "id": 2
+          },
+          {
+            "name": "Debian Local Security Checks",
+            "id": 3
+          },
+          {
+            "name": "Solaris Local Security Checks",
+            "id": 4
+          },
+          {
+            "name": "Fedora Local Security Checks",
+            "id": 5
+          },
+          {
+            "name": "CGI abuses",
+            "id": 6
+          },
+          {
+            "name": "Gentoo Local Security Checks",
+            "id": 7
+          },
+          {
+            "name": "SuSE Local Security Checks",
+            "id": 8
+          },
+          {
+            "name": "AIX Local Security Checks",
+            "id": 9
+          },
+          {
+            "name": "Windows : Microsoft Bulletins",
+            "id": 10
+          },
+          {
+            "name": "Web Servers",
+            "id": 11
+          },
+          {
+            "name": "SMTP problems",
+            "id": 12
+          },
+          {
+            "name": "FreeBSD Local Security Checks",
+            "id": 13
+          },
+          {
+            "name": "Ubuntu Local Security Checks",
+            "id": 14
+          },
+          {
+            "name": "Slackware Local Security Checks",
+            "id": 15
+          },
+          {
+            "name": "Mandrake Local Security Checks",
+            "id": 16
+          },
+          {
+            "name": "Remote file access",
+            "id": 17
+          },
+          {
+            "name": "CentOS Local Security Checks",
+            "id": 18
+          },
+          {
+            "name": "FTP",
+            "id": 19
+          },
+          {
+            "name": "Windows",
+            "id": 20
+          },
+          {
+            "name": "MacOS X Local Security Checks",
+            "id": 21
+          },
+          {
+            "name": "Denial of Service",
+            "id": 22
+          },
+          {
+            "name": "Misc.",
+            "id": 23
+          },
+          {
+            "name": "Service detection",
+            "id": 24
+          },
+          {
+            "name": "Default Unix Accounts",
+            "id": 25
+          },
+          {
+            "name": "CGI abuses : XSS",
+            "id": 26
+          },
+          {
+            "name": "Gain root remotely",
+            "id": 27
+          },
+          {
+            "name": "RPC",
+            "id": 28
+          },
+          {
+            "name": "Windows : User management",
+            "id": 29
+          },
+          {
+            "name": "General",
+            "id": 30
+          },
+          {
+            "name": "Databases",
+            "id": 31
+          },
+          {
+            "name": "Peer-To-Peer File Sharing",
+            "id": 32
+          },
+          {
+            "name": "CISCO",
+            "id": 33
+          },
+          {
+            "name": "Firewalls",
+            "id": 34
+          },
+          {
+            "name": "Backdoors",
+            "id": 35
+          },
+          {
+            "name": "SCADA",
+            "id": 36
+          },
+          {
+            "name": "DNS",
+            "id": 37
+          },
+          {
+            "name": "Useless services",
+            "id": 38
+          },
+          {
+            "name": "Policy Compliance",
+            "id": 39
+          },
+          {
+            "name": "Gain a shell remotely",
+            "id": 40
+          },
+          {
+            "name": "Settings",
+            "id": 41
+          },
+          {
+            "name": "Port scanners",
+            "id": 42
+          },
+          {
+            "name": "Netware",
+            "id": 43
+          },
+          {
+            "name": "Finger abuses",
+            "id": 44
+          },
+          {
+            "name": "SNMP",
+            "id": 45
+          },
+          {
+            "name": "NIS",
+            "id": 46
+          },
+          {
+            "name": "Mandriva Local Security Checks",
+            "id": 47
+          },
+          {
+            "name": "VMware ESX Local Security Checks",
+            "id": 48
+          },
+          {
+            "name": "Brute force attacks",
+            "id": 49
+          },
+          {
+            "name": "Junos Local Security Checks",
+            "id": 50
+          },
+          {
+            "name": "Scientific Linux Local Security Checks",
+            "id": 51
+          },
+          {
+            "name": "Mobile Devices",
+            "id": 52
+          },
+          {
+            "name": "Oracle Linux Local Security Checks",
+            "id": 53
+          },
+          {
+            "name": "Amazon Linux Local Security Checks",
+            "id": 54
+          },
+          {
+            "name": "Palo Alto Local Security Checks",
+            "id": 55
+          },
+          {
+            "name": "Huawei Local Security Checks",
+            "id": 56
+          },
+          {
+            "name": "F5 Networks Local Security Checks",
+            "id": 57
+          },
+          {
+            "name": "OracleVM Local Security Checks",
+            "id": 58
+          },
+          {
+            "name": "Incident Response",
+            "id": 59
+          },
+          {
+            "name": "Virtuozzo Local Security Checks",
+            "id": 60
+          },
+          {
+            "name": "NewStart CGSL Local Security Checks",
+            "id": 61
+          }
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.id",
+      "readable_name": "Plugin ID",
+      "control": {
+        "type": "entry",
+        "regex": "^(0|[1-9][0-9]{0,6})(\\s*-\\s*([1-9][0-9]{0,6}))?(,\\s*(0|[1-9][0-9]{0,6})(\\s*-\\s*([1-9][0-9]{0,6}))?)*$",
+        "readable_regex": "XXXXX,XXXXX-XXXXX",
+        "maxlength": 1000
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.plugin_modification_date",
+      "readable_name": "Plugin Modification Date",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.name",
+      "readable_name": "Plugin Name",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch",
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "output",
+      "readable_name": "Plugin Output",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "text,other text"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.plugin_publication_date",
+      "readable_name": "Plugin Publication Date",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.plugin_type",
+      "readable_name": "Plugin Type",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "local",
+          "remote"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "port.port",
+      "readable_name": "Port",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]{1,5}(\\s*-\\s*[0-9]{1,5})?(,\\s*[0-9]{1,5}(\\s*-\\s*[0-9]{1,5})?)*$",
+        "readable_regex": "80,8000-8080",
+        "maxlength": 1000
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "gte",
+        "lte"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "port.protocol",
+      "readable_name": "Protocol",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "tcp",
+          "udp",
+          "icmp"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "modification",
+      "readable_name": "Recast & Accept",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "Accepted",
+          "Recasted"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.xref:Secunia",
+      "readable_name": "Secunia ID",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(,[0-9]+)*$",
+        "readable_regex": "NUMBER",
+        "maxlength": 18
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.see_also",
+      "readable_name": "See Also",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "eq",
+        "neq",
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "severity",
+      "readable_name": "Severity",
+      "control": {
+        "type": "dropdown_multi",
+        "list": [
+          "Info",
+          "Low",
+          "Medium",
+          "High",
+          "Critical"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.solution",
+      "readable_name": "Solution",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.synopsis",
+      "readable_name": "Synopsis",
+      "control": {
+        "type": "entry",
+        "regex": ".*",
+        "readable_regex": "TEXT"
+      },
+      "operators": [
+        "match",
+        "nmatch"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.unsupported_by_vendor",
+      "readable_name": "Unsupported By Vendor",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "true",
+          "false"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "tracking.first_found",
+      "readable_name": "Vulnerability First Seen",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq",
+        "with-in"
+      ],
+      "group_name": "vulnerability",
+      "customControl": [
+        {
+          "cstmOpr": "with-in",
+          "cstmCntrl": {
+            "type": "entry",
+            "regex": "^[0-9]+$",
+            "readable_regex": "10",
+            "maxlength": 0
+          }
+        },
+        {
+          "cstmOpr": "date-eq",
+          "cstmCntrl": {
+            "type": "datefield",
+            "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}.*",
+            "readable_regex": "YYYY/MM/DD"
+          }
+        }
+      ]
+    },
+    {
+      "name": "tracking.last_found",
+      "readable_name": "Vulnerability Last Seen",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq",
+        "with-in"
+      ],
+      "group_name": "vulnerability",
+      "customControl": [
+        {
+          "cstmOpr": "with-in",
+          "cstmCntrl": {
+            "type": "entry",
+            "regex": "^[0-9]+$",
+            "readable_regex": "10",
+            "maxlength": 0
+          }
+        }
+      ]
+    },
+    {
+      "name": "plugin.attributes.vpr.score",
+      "readable_name": "Vulnerability Priority Rating (VPR)",
+      "control": {
+        "type": "entry",
+        "regex": "^[0-9]+(\\.[0-9])?$",
+        "readable_regex": "7.5"
+      },
+      "operators": [
+        "lte",
+        "gte",
+        "eq",
+        "neq",
+        "lt",
+        "gt"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "plugin.attributes.vuln_publication_date",
+      "readable_name": "Vulnerability Publication Date",
+      "control": {
+        "type": "datefield",
+        "regex": "^[0-9]{4}/[0-9]{2}/[0-9]{2}$",
+        "readable_regex": "YYYY/MM/DD"
+      },
+      "operators": [
+        "date-lt",
+        "date-lte",
+        "date-gt",
+        "date-gte",
+        "date-eq",
+        "date-neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "tracking.state",
+      "readable_name": "Vulnerability State",
+      "control": {
+        "type": "dropdown",
+        "list": [
+          "New",
+          "Fixed",
+          "Active",
+          "Resurfaced"
+        ]
+      },
+      "operators": [
+        "eq",
+        "neq"
+      ],
+      "group_name": "vulnerability"
+    },
+    {
+      "name": "tag.VRM",
+      "readable_name": "VRM",
+      "control": {
+        "type": "dropdown_multi",
+        "list": [
+          {
+            "name": "Prueba Técnica",
+            "value": "Prueba Técnica"
+          }
+        ]
+      },
+      "operators": [
+        "set-has",
+        "set-hasnot"
+      ],
+      "group_name": "vulnerability"
+    }
+  ],
+  "history": [
+    {
+      "history_id": 29956088,
+      "owner_id": 2309772,
+      "creation_date": 1742299944,
+      "last_modification_date": 1742300650,
+      "uuid": "2e7776d2-eea5-4253-ab87-de35c125bed8",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": false,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29956071,
+      "owner_id": 2309772,
+      "creation_date": 1742299792,
+      "last_modification_date": 1742299874,
+      "uuid": "a36dcf56-12a9-4c8a-88da-d6f5ac72a0f6",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": false,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29952747,
+      "owner_id": 2309772,
+      "creation_date": 1742284546,
+      "last_modification_date": 1742295818,
+      "uuid": "9f58ee9b-3edd-491f-b298-96f7a7db4dda",
+      "type": "remote",
+      "status": "canceled",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": false,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29941132,
+      "owner_id": 2309772,
+      "creation_date": 1742220084,
+      "last_modification_date": 1742223515,
+      "uuid": "e3a48179-f1e5-4028-b1d8-f8014a472501",
+      "type": "remote",
+      "status": "canceled",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": false,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29392992,
+      "owner_id": 2309772,
+      "creation_date": 1739273736,
+      "last_modification_date": 1739273975,
+      "uuid": "b09511ce-84bf-4c1a-8a35-723919886470",
+      "type": "remote",
+      "status": "canceled",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29188657,
+      "owner_id": 2309772,
+      "creation_date": 1738058294,
+      "last_modification_date": 1738064373,
+      "uuid": "bb088999-42de-4950-85d0-d7c1d22b6ff0",
+      "type": "remote",
+      "status": "completed",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29187513,
+      "owner_id": 2309772,
+      "creation_date": 1738052307,
+      "last_modification_date": 1738053274,
+      "uuid": "94ad17dd-17e8-4a6f-be79-134a0b89126c",
+      "type": "remote",
+      "status": "canceled",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29187460,
+      "owner_id": 2309772,
+      "creation_date": 1738051460,
+      "last_modification_date": 1738052229,
+      "uuid": "df5ca2dc-502a-44fb-9724-defb89d1d5b8",
+      "type": "remote",
+      "status": "canceled",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29179765,
+      "owner_id": 2309772,
+      "creation_date": 1738006240,
+      "last_modification_date": 1738007351,
+      "uuid": "29ffb9c8-54d6-4dfc-922e-fd3757c0cd71",
+      "type": "remote",
+      "status": "canceled",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29179649,
+      "owner_id": 2309772,
+      "creation_date": 1738005370,
+      "last_modification_date": 1738006001,
+      "uuid": "7a4a92fc-c474-493b-9f14-31da67860f9d",
+      "type": "remote",
+      "status": "canceled",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29179623,
+      "owner_id": 2309772,
+      "creation_date": 1738005057,
+      "last_modification_date": 1738005341,
+      "uuid": "d40b3c72-ffe6-445e-b10d-ca648802ead8",
+      "type": "remote",
+      "status": "canceled",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true,
+      "reporting_mode": null
+    },
+    {
+      "history_id": 29177583,
+      "owner_id": 2309772,
+      "creation_date": 1737993474,
+      "last_modification_date": 1738000773,
+      "uuid": "6a7f2972-e63c-499f-90cd-f78e46ecfa13",
+      "type": "remote",
+      "status": "aborted",
+      "scheduler": 0,
+      "alt_targets_used": false,
+      "is_archived": true,
+      "reporting_mode": null
+    }
+  ],
+  "notes": [],
+  "remediations": {
+    "num_cves": 38,
+    "num_hosts": 1,
+    "num_remediated_cves": 4,
+    "num_impacted_hosts": 1,
+    "remediations": [
+      {
+        "vulns": 0,
+        "value": "9fe01e8195f4f36a87214bc7fd3125ad",
+        "hosts": 1,
+        "remediation": "UnrealIRCd Backdoor Detection: Re-download the software, verify it using the published MD5 / SHA1 checksums, and re-install it."
+      },
+      {
+        "vulns": 1,
+        "value": "9d267743d0099d28d69dcf663045a775",
+        "hosts": 1,
+        "remediation": "Samba Badlock Vulnerability: Upgrade to Samba version 4.2.11 / 4.3.8 / 4.4.2 or later."
+      },
+      {
+        "vulns": 3,
+        "value": "4f650b8ab0e48049d36035f41cf886dc",
+        "hosts": 1,
+        "remediation": "ISC BIND 9.x < 9.11.22, 9.12.x < 9.16.6, 9.17.x < 9.17.4 DoS: Upgrade to BIND 9.11.22, 9.16.6, 9.17.4 or later."
+      }
+    ]
+  }
+}
